@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+body{
+background-color: #22272e;
+}
+
+
+
+
+
+
+
+
+
+
+.main {
+  position: absolute;
+  width: 50%;
+
+
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.container {
+  padding: 110px 110px 40px;
+  border-radius: 20px; 
+   box-shadow:  30px 30px 535px #232323;
+
+  border: 1px solid #444c56;
+height: 500px;
+
+
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #edf2fe;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+input {
+  width: 77.5%;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #d3d4d7;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 0 20px;
+}
+#shorten {
+  width: 20%;
+  height: 60px;
+  background-color: #2419fa;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#result {
+display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 60px;
+  border-radius: 8px;
+  padding: 16px 20px;
+  font-size: 18px;
+align-items: center;
+}
+#shorten:hover {
+  background-color: #1c1393;
+
+}
+#left {
+  display: flex;
+  align-items: center;
+}
+#long-link {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 500px;
+}
+#encurta-link a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: #0236b9;
+}
+#copy {
+  padding: 10px;
+  background-color: #edf2fe;
+  color: #2a5bd7;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#copy:hover {
+  background-color: #d3d4d7;
+}
+.success {
+  background-color: #649949;
+  color: #fff;
+}
+@media screen and (max-width: 990px) {
+  form {
+    flex-direction: column;
+  }
+  input {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .container {
+    padding: 20px 20px 20px;
+
+  
+  }
+
+
+
+
+
+
+
+  #shorten {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #result {
+    flex-direction: column;
+    height: 40%;
+  }
+  #long-link {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  #left {
+    flex-direction: column;
+  }
+  #copy {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+
+
+
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encurtador de URL</title>
+    <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  </head>
+  <body>
+<main>
+
+
+
+
+<div class="main">
+
+
+      <div class="container">
+        <h1>Encurtador de URL</h1>
+        <form id="form">
+          <input
+            type="url"
+            id="url"
+            name="url"
+            placeholder="Cole sua URL aqui"
+          />
+          <button id="shorten" type="submit">Encurtar</button>
+        </form>
+        <div id="result">
+          <span id="long-link">https://github.com/PietroNF</span>
+          <div id="left">
+            <span id="encurta-link">
+              <a href="https://bit.ly/46x2U5h" target="_blank"
+                >https://bit.ly/46x2U5h</a
+              >
+            </span>
+            <button id="copy" onclick="copyToClipboard()">Copiar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  </body>
+  <script src="script.js"></script>
+</html>
