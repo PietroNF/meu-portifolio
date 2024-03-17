@@ -111,7 +111,7 @@ nav {
      }
      
      #myself{
-       max-width: 900px;
+       max-width: 800px;
        margin: 0 auto;
        padding-top: 100px;
       position: relative;
@@ -181,11 +181,14 @@ nav {
       margin-left: 227px;
      }
      #my-img{
-      height: 500px;
-      width:550px;
-   top: 6px;
-   right: 5px;
-       position:absolute ;
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      top: 115px ; 
+      right: 0;
+      width: 400px;
+      height: 400px;
+    
        
      }
 

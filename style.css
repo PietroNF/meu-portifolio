@@ -115,10 +115,11 @@ article{
 
 
 #myself{
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding-top: 100px;
  position: relative;
+
 
 }
 
@@ -212,13 +213,14 @@ margin-top: -66px;
 
 }
 #my-img{
+display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 7px ; 
+  right: 0;
+  width: 600px;
   height: 600px;
-  width: 698px;
-right: 5px;
-top:  10px;
-position: absolute;
-z-index: 6;
-  
+
   
 }
 
@@ -238,9 +240,9 @@ z-index: 6;
 padding-bottom: 6px;
 
 
+
 }
 #text-sm {
-
 
 
 
@@ -344,8 +346,8 @@ font-size: 24px;
 
 margin-left: 500px;
 margin-top: -535px;
-
-
+display: flex;
+flex-wrap: wrap;
 }
 
 .tab{
@@ -354,6 +356,7 @@ margin-top: -535px;
   width: 700px;
   margin: 15px 0;
  transition: 0.5;
+ 
 }
 .tab:hover{
  opacity: 0.85;
@@ -447,8 +450,8 @@ position: absolute;
    
    
    .container{
-     max-width: 1200px;
      margin: 0 auto;
+     max-width: 1200px;
      text-align: center;
      padding:25px 20px;
    }
