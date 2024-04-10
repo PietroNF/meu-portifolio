@@ -102,7 +102,7 @@
   
 
       #myself{
-        max-width: 610px;
+        max-width: 510px;
         margin: 0 auto;
         padding-top: 50px;
        position: relative;
@@ -190,17 +190,19 @@
         color: #cccc;
         max-width: 50px;
         font-size: 9px;
-      margin-left: 168px;
+      margin-left: 155px;
       margin-top: -38px;
       
       }
       #my-img{
-        height: 350px;
-        width: 350px;
-      right: 5px;
-     top: 6;
-   position: absolute;
-        
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 25px ; 
+        right: 0;
+        width: 265px;
+        height: 265px;
+      
         
       }
       #sc-flag{
@@ -217,7 +219,7 @@
 
       #img-lado {
         height: 400px;
-        width: 400px;
+        width: 500px;
      margin-top: 30px;
     margin-left: 0px;
       }
