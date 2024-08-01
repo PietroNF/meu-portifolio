@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>meu portifolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-tablet.css">
-  <link rel="stylesheet" href="media-cel.css">
-  <link rel="stylesheet" href="media-mini.css"> 
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media-tablet.css">
+  <link rel="stylesheet" href="/css/media-cel.css">
+  <link rel="stylesheet" href="/css/media-mini.css"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
   integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<link rel="stylesheet" href="/font/font.css">
   </head>
 
   <body>
     <header>
       <nav>
         <p class="logo" href=""> <img src="img/pi simbolo.png" alt="">Developer </p>
-        <div  class="mobile-menu"  onclick="overflow()"  >
+        <div  class="mobile-menu"    >
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
@@ -38,44 +38,39 @@
 
 <article>
 <section id="myself">
+
+<div id="myself-content">
+
 <div id="myself-div">
    carreira
 </div>
 <h1>Programador front-end </h1>
-<p id="p-1">Florianópolis-sc
-</p>
+<span id="span">Florianopolis-sc</span>
+
+
 <a id="go-there" href="#text-sm">Vamos la</a>
-<img id="sc-flag" src="img/sc-flag.jpg" alt="">
 
-<div id="my-age">
-
-<p id="p-age">Anos de idade </p>
-<h4>15</h4>
+<div id="atributes">
 
 
+<div id="my-age">  <h3>15</h3> <p>anos de idade</p>    </div>
+<div id="my-ex">  <h3>2</h3>   <p>anos de estudo</p>  </div>
+   
+</div>
+   
 
 </div>
 
 
-<div id="my-ex">
 
 
-<h4>2</h4>
-   <p id="p-ex"> anos de estudo </p>
-   
-   
-   
-   
-   </div>
-
-
-<div class="my-img">
-
-
-
-<img id="my-img" src="img/insta2.png" alt="">
-
+   <div id="my-img">
+<img  src="/img/insta2.png" alt="">
 </div>
+
+
+
+
 
 
 </section>
@@ -99,21 +94,21 @@
   
   <div id="text-sm">
 <h2>Biografia</h2>
-<h3>Programador front end  junior</h3>
-<p id="sm"> Meu nome e Pietro Fernandes tenho 15 anos de idade e estou em busca de uma carreira como desenvolvedor front-end. Iniciei no mundo da programaçao em 2021
+<h3>Programador front end </h3>
+<p > Meu nome e Pietro Fernandes tenho 15 anos de idade e estou em busca de uma carreira como desenvolvedor front-end. Iniciei no mundo da programaçao em 2021
 fazendo alguns bots do discord com <strong>pyton</strong> mas no ano seguinte,  em maio de 2022 meu foco nos estudos possou a mudar
 e des de entao uma busca de estudos mais intensiva aconteceu,  aprendendo  <strong>html css e js </strong> em cursos gratuitos por 15 meses 
 
 
 </p>
   <p id="spec"> expecificaçoes:
-     horario livre: 12:00-19:00 localidade: florianópolis-são jose
+     Horario livre: 12:00-19:00 localidade: Florianópolis-são josé
 
 
   </p>
 <div id="sobre-div">
-   <i class="fa-solid fa-code"></i>
- <p>Developer</p>
+ <span>  <i class="fa-solid fa-code"></i> developer   </span>
+ 
 </div>
 </div>
 
@@ -122,30 +117,39 @@ e des de entao uma busca de estudos mais intensiva aconteceu,  aprendendo  <stro
 
   <div id="img-lado">
 
-<div class="tab">
+<div id="tab">
 <h3>Html</h3>
-<p> Horas estudando | 75 horas  </p>
+<p> Certificados | 4  </p>
 <a href="https://www.origamid.com/certificate/d4599b79">veja mais</a>
+<div>
+
 
 <img src="img/html-5.png" alt="">
 </div>
-
-
-<div class="tab">
-   <h3>Css</h3>
-   <p>Horas estudando | 75 horas </p>
-   <a href="https://www.origamid.com/certificate/d4599b79">veja mais</a>
-
-   <img src="img/css-3.png" alt="">
 </div>
 
 
-<div class="tab">
+<div id="tab">
+   <h3>Css</h3>
+   <p>Certificados | 4 </p>
+   <a href="https://www.origamid.com/certificate/d4599b79">veja mais</a>
+<div>
+
+
+   <img src="img/css-3.png" alt="">
+</div>
+</div>
+
+
+<div id="tab">
    <h3>Javascript</h3>
-   <p> Horas estudando | 20 horas </p>
-   <a href="https://www.linkedin.com/in/pietro-nuernberg-fernandes-b17716257/">veja mais</a>
+   <p> Certificados | 2 </p>
+   <a href="https://drive.google.com/file/d/1_2JEw762_c9IcT4AjPfjBHBrna6mOX4o/view">veja mais</a>
+ <div>
+
  
    <img src="img/js.png" alt="">
+</div>
 </div>
 
 
@@ -192,156 +196,159 @@ e des de entao uma busca de estudos mais intensiva aconteceu,  aprendendo  <stro
 
 
 
-<div class="container">
+<div id="container">
 
   
 
-  <div class="box-container">
+  <div id="box-container">
 
-     <div class="box">
-        <div class="image">
+     <div id="box">
+        <div id="image">
           <img src="img/circularnav.png" alt="">
         </div>
-        <div class="content">
+        <div id="content">
            <h3>Navbar circular</h3>
            <p>Menu de navegaçao  cicrular feito com html css e javascript</p>
            <a href="/project/circular/circular.html" class="btn">ler mais</a>
-           <div class="icons">
+           <div id="icons">
              <span> <i class="fas fa-calendar"></i> 12st jul, 2023 </span>
-               <span> <i class="fas fa-user"></i> by pietro </span>
+               <span> <i class="fas fa-user"></i> by Pietro </span>
            </div>
         </div>
      </div>
 
-     <div class="box">
-        <div class="image">
+     <div id="box">
+        <div id="image">
            <img src="img/SLIDE.png" alt="">
         </div>
-        <div class="content">
+        <div id="content">
            <h3>Slideshow</h3>
-           <p>  Slideshow de 3 imagens feito com html e css</p>
+           <p>  Slideshow de 3 imagens com o tema de F1  feito com html e css</p>
            <a href="/project/slideshow/index.html" class="btn">ler mais</a>
-           <div class="icons">
+           <div id="icons">
             <span> <i class="fas fa-calendar"></i> 27st jul, 2023 </span>
-            <span> <i class="fas fa-user"></i> by pietro </span>
+            <span> <i class="fas fa-user"></i> by Pietro </span>
            </div>
         </div>
      </div>
 
-     <div class="box">
-        <div class="image">
+     <div id="box">
+        <div id="image">
            <img src="img/meu-po-img.png" alt="">
         </div>
-        <div class="content">
+        <div id="content">
            <h3>Meu portifolio</h3>
-           <p>Meu portifolio feito com html css e javascript</p>
+           <p>Meu portifolio feito com html css e javascript
+         (Site Atual)   
+         </p>
            <a href="#" class="btn">ler mais</a>
-           <div class="icons">
+           <div id="icons">
             <span> <i class="fas fa-calendar"></i> 20st set, 2023 </span>
-            <span> <i class="fas fa-user"></i> by pietro</span>
+            <span> <i class="fas fa-user"></i> by Pietro</span>
            </div>
         </div>
      </div>
 
-     <div class="box">
-        <div class="image">
+     <div id="box">
+        <div id="image">
            <img src="img/word count.png" alt="">
         </div>
-        <div class="content">
+        <div id="content">
            <h3>Contador de palavras</h3>
            <p>Contador de palavras feito com html css e javascript</p>
            <a href="/project/contador-de-palavras-main/contador-de-palavras-main/index.html" class="btn">ler mais</a>
-           <div class="icons">
+           <div id="icons">
             <span> <i class="fas fa-calendar"></i> 22st set, 2023 </span>
 
           
 
-            <span> <i class="fas fa-user"></i> by pietro </span>
+            <span> <i class="fas fa-user"></i> by Pietro </span>
 
            </div>
         </div>
      </div>
 
-     <div class="box">
-        <div class="image">
+     <div id="box">
+        <div id="image">
            <img src="img/rock.png" alt="">
         </div>
-        <div class="content">
+        <div id="content">
            <h3>Joguinho</h3>
            <p>Pedra papel e tesoura feito com html css e javascript</p>
            <a href="/project/joguinho-main/joguinho-main/index.html" class="btn">ler mais</a>
-           <div class="icons">
+           <div id="icons">
             <span> <i class="fas fa-calendar"></i> 26st set, 2023 </span>
 
             
-            <span> <i class="fas fa-user"></i> by pietro </span>
+            <span> <i class="fas fa-user"></i> by Pietro </span>
 
            </div>
         </div>
      </div>
 
-     <div class="box">
-        <div class="image">
+     <div id="box">
+        <div id="image">
            <img src="img/butao.png" alt="">
         </div>
-        <div class="content">
+        <div id="content">
            <h3>Namora comigo ?</h3>
            <p>Pedido de namora com botao fujão feito com html css e javascript</p>
-           <a href="/project/botao.html" class="btn">ler mais</a>
-           <div class="icons">
+           <a href="/project/botao fujao/botao.html" class="btn">ler mais</a>
+           <div id="icons">
             <span> <i class="fas fa-calendar"></i> 3st out, 2023 </span>
 
 
 
-            <span> <i class="fas fa-user"></i> by pietro</span>
+            <span> <i class="fas fa-user"></i> by Pietro</span>
            </div>
         </div>
      </div>
 
-     <div class="box">
-        <div class="image">
+     <div id="box">
+        <div id="image">
            <img src="img/encurta.png" alt="">
         </div>
-        <div class="content">
+        <div id="content">
            <h3>encurtador de url </h3>
            <p>encurtador de url feito usando a mesma API do site bitly </p>
            <a href="/project/encurtador-url/index.html" class="btn">ler mais</a>
-           <div class="icons">
+           <div id="icons">
             <span> <i class="fas fa-calendar"></i> 15st out, 2023 </span>
-            <span> <i class="fas fa-user"></i> by pietro </span>
+            <span> <i class="fas fa-user"></i> by Pietro </span>
 
            </div>
         </div>
      </div>
 
-     <div class="box">
-        <div class="image">
+     <div id="box">
+        <div id="image">
            <img src="img/flexblog.jpeg" alt="">
         </div>
-        <div class="content">
+        <div id="content">
            <h3>flexblog</h3>
-           <p>site feito no curso de (css flexbox) origamid
-            -_-
-           </p>
+           <p>site feito no curso de ( css flexbox ) origamid .
+       -_-
+         </p>
            <a href="/project/flexblog/index.html" class="btn">ler mais</a>
-           <div class="icons">
+           <div id="icons">
             <span> <i class="fas fa-calendar"></i> 8st jan, 2024 </span>
-            <span> <i class="fas fa-user"></i> by pietro </span>
+            <span> <i class="fas fa-user"></i> by Pietro </span>
            </div>
         </div>
      </div>
 
-     <div class="box">
-        <div class="image">
-           <img src="img/em-breve.png" alt="">
+     <div id="box">
+        <div id="image">
+           <img src="/img/bikecraft.png" alt="">
         </div>
-        <div class="content">
+        <div id="content">
            <h3>bikecraft</h3>
 
-           <p>em breve</p>
-           <a href="#" class="btn">ler mais</a>
-           <div class="icons">
-            <span> <i class="fas fa-calendar"></i> soon</span>
+           <p>site feito no curso  " html e css para iniciantes " da origamid 
+           </p>
+           <a href="/project/bikcraft/index.html" class="btn">ler mais</a>
+           <div id="icons">
+            <span> <i class="fas fa-calendar"></i> 14st jul 2024</span>
             <span> <i class="fas fa-user"></i> by admin </span>
            </div>
         </div>
@@ -378,7 +385,7 @@ e des de entao uma busca de estudos mais intensiva aconteceu,  aprendendo  <stro
 
 
 
-<a href="https://www.linkedin.com/in/pietro-nuernberg-fernandes-b17716257/g">
+<a href="https://www.linkedin.com/in/pietro-nuernberg-fernandes-b17716257/">
    <img src="img/linkedin single-color.png" alt="link para linkedin">
 </a>
 
@@ -392,7 +399,7 @@ e des de entao uma busca de estudos mais intensiva aconteceu,  aprendendo  <stro
 </div>
 
 <div id="dowload-btn">
-<a href="https://github.com/PietroNF">
+<a href="https://github.com/PietroNF/meu-portifolio">
 baixar portifolio
 </a></div>
 </section>
@@ -401,9 +408,8 @@ baixar portifolio
   </body>
 
     
-    <script src="mobile-navbar.js"></script>
-    <script src="loadmore.js"></script>
-    <script src="scroll.js"></script>
-
+    <script src="/js/mobile-navbar.js"></script>
+    <script src="/js/loadmore.js"></script>
+  
 
 </html>

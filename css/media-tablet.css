@@ -1,0 +1,271 @@
+
+@media (max-width: 1200px){
+
+
+
+  body {
+overflow-x: hidden;
+
+
+}
+
+.logo{
+    font-size: 20px;
+   
+}
+.logo img {
+    width: 40px;
+    height: 15px;
+   
+ 
+    
+  
+  }
+
+.nav-list {
+position: absolute;
+top: 8vh;
+right: 0;
+width: 50vw;
+height: 92vh;
+background: #1a1c19;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+transform: translateX(100%);
+transition: transform 0.3s ease-in;
+z-index: 1000;
+}
+
+
+  
+
+
+.nav-list li {
+margin-left: 0;
+opacity: 0;
+font-size: 12px;
+
+}
+.nav-list li:hover{
+  border-bottom: none;
+  
+  }
+
+
+.mobile-menu {
+display: block;
+}
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+  }
+
+
+.nav-list.active {
+transform: translateX(0);
+}
+
+nav {
+    
+    height: 8vh;
+    max-width: 900px;
+    margin: 0 auto;
+
+    
+    
+    }
+
+
+    article{
+      height: 525px;
+     width: 100%;
+    background: #1a1c19 no-repeat center center;
+     background-size: cover;
+   
+   }
+  
+   header {
+    border-bottom: 0.5px solid #656565;
+   }
+    
+   
+  
+  
+  
+  
+  
+  
+  
+  
+      article{
+        height: 900px;
+       width: 100%;
+      background: #1a1c19 no-repeat center center;
+      background-size: cover;
+     
+     
+     }
+     
+     #myself{
+       max-width: 800px;
+       margin: 0 auto;
+      
+      position: relative;
+     
+     }
+     #my-img img{
+     height: 400px;
+     padding: 100px 20px;
+     }
+   
+
+
+
+
+ 
+  
+ #sobre-mim{
+padding: 0 20px; 
+max-width: 1000px;
+margin:  0 auto;
+margin-top: 100px;
+
+}
+#tab{
+width: 500px;
+}
+
+ 
+
+
+
+
+
+
+
+
+   
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #project  {
+        max-width: 900px;
+        margin: 0 auto;
+        
+    
+    }
+
+
+
+
+    #top-project h2 {
+      padding-left: 20px;
+        font-size: 46px;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background-color: #1a1c19;
+      width: 650px;
+      margin-left: 22px;
+      margin-top: 400px;
+      cursor: pointer;
+      color: #cccfd4;
+   
+      
+      
+      
+      
+      
+      
+      }
+
+
+
+        #footer-sec{
+        max-width: 900px;
+        margin: 0 auto;
+        padding-top: 50px;
+        
+        }
+
+
+
+        footer{
+          background-color: #1a1c19;
+         
+          width: 100%;
+          margin: 0 auto;
+          
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes navLinkFade {
+from {
+opacity: 0;
+transform: translateX(50px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+
+.mobile-menu.active .line1 {
+transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+opacity: 0;
+
+}
+
+.mobile-menu.active .line3 {
+transform: rotate(45deg) translate(-5.5px, -7px);
+
+
+
+}
+
+}
+
+
+
+
+
+

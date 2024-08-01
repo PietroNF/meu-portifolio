@@ -1,0 +1,318 @@
+@media (max-width: 500px) {
+
+
+
+    body {
+  overflow-x: hidden;
+  
+  
+  }
+  
+  .logo{
+      font-size: 20px;
+     
+  }
+  .logo img {
+      width: 40px;
+      height: 15px;
+     
+   
+      
+    
+    }
+  
+  .nav-list {
+  position: absolute;
+  top: 8vh;
+  right: 0;
+  width: 50vw;
+  height: 92vh;
+  background-color: #1a1c19;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in;
+  }
+  
+  
+    
+  
+  
+  .nav-list li {
+  margin-left: 0;
+  opacity: 0;
+  font-size: 12px;
+  
+  }
+  .nav-list li:hover{
+    border-bottom: none;
+    
+    }
+  
+  
+  .mobile-menu {
+  display: block;
+  }
+  .mobile-menu div {
+    width: 20px;
+    height: 1px;
+    background: #fff;
+    margin: 4px;
+    transition: 0.3s;
+    }
+  
+  
+  .nav-list.active {
+  transform: translateX(0);
+  }
+  
+  nav {
+      height: 8vh;
+      max-width: 800px;
+      margin: 0 auto ; }
+  
+      header{
+    border: none;
+  }
+  
+      
+      article{
+        height: 100%;
+       width: 100%;
+       background: #1a1c19 no-repeat center center;
+       background-size: cover;
+    
+     }
+
+
+
+    
+  
+
+      #myself{
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 0px 0px 0px 20px;
+       position: relative;
+
+ 
+      }
+      #myself-content{
+     
+      }
+      
+      #my-img img{
+        height: 170px;
+        height: 150px;
+        padding: 100px 20px;
+
+
+      }
+     #myself span{
+      font-size: 12px;
+     
+    
+     }
+    
+     
+     #span::after{
+     position: absolute;
+     width: 25px;
+
+     margin-left: 5px;
+     }
+  #my-ex{
+    margin-left: 0px;
+   
+  }
+
+     #my-ex p{
+      font-size: 12px;
+  width: 200px;
+max-width: 50px;      
+    } 
+    #my-age p{
+      font-size: 10px;
+width: 200px;
+    max-width: 50px;
+  
+      
+     
+    } 
+    #my-ex h3{
+      font-size: 33px;
+     
+    }
+    #my-age h3 {
+      font-size: 33px;
+    } 
+
+    #myself span{
+      font-size: 15px;
+     
+    
+     
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tab{
+  width: 350px;
+}
+
+#text-sm{
+  max-width: 350px;
+}
+#sobre-mim{
+  margin-top: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#load-more{
+  margin-top: 20px;
+  padding:13px 30px;
+  border:1px solid #334;
+ 
+  
+  cursor: pointer;
+}
+
+  .container{
+    max-width: 400px;
+    margin: 0 auto;
+margin-left: -10px;
+
+  }
+
+
+  #project  {
+    max-width: 368px;
+    margin: 0 auto;
+    
+
+}
+
+
+#top-project h2 {
+  padding-left: 10px;
+    font-size: 32px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #1a1c19;
+  width: 250px;
+  margin-left: 10px;
+  margin-top: 400px;
+  cursor: pointer;
+  color: #cccfd4;
+
+  
+  
+}
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+footer{
+ 
+}
+
+
+
+      #footer-sec{
+          
+          margin: 0 auto;
+          padding-top: 30px;
+          
+          }
+
+         
+  
+  
+#footer-sec h2 {
+  font-size: 18px;
+
+}
+
+#footer-sec ul {
+  gap: 30px;
+}
+#footer-sec li {
+  
+}
+#footer-sec a {
+ color: #f5f5f5;
+ font-weight: 300;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 12px;
+}
+
+
+
+
+#footer-img {
+
+
+
+}
+
+
+
+#footer-img img {
+  height: 45px;
+  width: 45px;
+
+}
+
+  
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  

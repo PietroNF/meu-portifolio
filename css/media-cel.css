@@ -1,0 +1,331 @@
+@media (max-width: 800px) {
+
+
+
+    body {
+  overflow-x: hidden;
+  
+  
+  }
+  
+  .logo{
+      font-size: 20px;
+     
+  }
+  .logo img {
+      width: 40px;
+      height: 15px;
+     
+   
+      
+    
+    }
+  
+  .nav-list {
+  position: absolute;
+  top: 8vh;
+  right: 0;
+  width: 50vw;
+  height: 92vh;
+  background-color: #1a1c19;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in;
+  }
+  
+  
+    
+  
+  
+  .nav-list li {
+  margin-left: 0;
+  opacity: 0;
+  font-size: 12px;
+  
+  }
+  .nav-list li:hover{
+    border-bottom: none;
+    
+    }
+  
+  
+  .mobile-menu {
+  display: block;
+  }
+  .mobile-menu div {
+    width: 20px;
+    height: 1px;
+    background: #fff;
+    margin: 4px;
+    transition: 0.3s;
+    }
+  
+  
+  .nav-list.active {
+  transform: translateX(0);
+  }
+  
+  nav {
+  
+      height: 8vh;
+      max-width: 800px;
+      margin: 0 auto;
+      
+      
+      
+      }
+  header{
+    border-bottom: 0.5px solid #656565;
+  }
+  
+      
+      
+       
+  
+  
+  
+      article{
+        height: 100%;
+       width: 100%;
+       background: #1a1c19 no-repeat center center;
+       background-size: cover;
+     
+
+
+     }
+
+
+
+    
+  
+
+      #myself{
+        max-width: 610px;
+        margin: 0 auto;
+      margin-top: 0px;
+       position: relative;
+     padding:  0 40px;
+      
+      }
+      #my-img img{
+        height: 250px;
+
+      }
+      #myself h1 {
+        font-size: 20px;
+        max-width: 200px;
+      }
+      #span{
+        font-size: 10px;
+      }
+#my-ex p{
+  font-size: 16px;
+} 
+#my-age p{
+  font-size: 16px;
+
+} 
+#my-ex h3{
+  font-size: 40px;
+} 
+#my-age h3{
+  font-size: 40px;
+} 
+#myself span{
+  font-size: 15px;
+ 
+
+ }
+
+ 
+ #span::after{
+
+ position: absolute;
+ width: 33px;
+ background-size: cover;
+ margin-left: 5px;
+ 
+ }
+
+
+#my-img img{
+  padding: 100px 0px;
+}
+
+
+
+
+
+
+
+
+  
+ 
+      #sobre-mim{
+        grid-template-columns: 1fr;
+        place-items: center;
+        padding: 0px 0px;
+        margin-top: 100px;
+        }
+        #text-sm p {
+       max-width: 480px;
+       
+        }
+       #text-sm{
+         margin-bottom: 100px;
+       }
+       #tab{
+       width: 500px;
+      
+       }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#project  {
+  max-width: 570px;
+  margin: 0 auto;
+  
+
+}
+
+#top-project h2 {
+
+  width: 350px;
+  margin-left: 20px;
+  margin-top: 300px;
+  cursor: pointer;
+  color: #cccfd4;
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+      }
+
+footer{
+
+
+}
+
+
+
+      #footer-nav{
+      
+       margin-top: 200px;
+      }
+
+
+#footer-sec{
+  padding-top: 10px;
+}
+
+
+  
+  
+  
+  
+  
+  
+  
+  @keyframes navLinkFade {
+  from {
+  opacity: 0;
+  transform: translateX(50px);
+  }
+  to {
+  opacity: 1;
+  transform: translateX(0);
+  }
+  }
+  
+  .mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(1px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+  opacity: 0;
+  
+  }
+  
+  .mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(1.5px, -8px);
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+}
