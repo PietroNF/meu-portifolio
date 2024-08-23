@@ -126,6 +126,7 @@
 #seguro:checked ~ #orcamento-seguro {
   display: grid;
   gap: 20px;
+
 }
 
 .orcamento-detalhes {
@@ -150,6 +151,7 @@
 
 .orcamento-produto input:checked + label + .orcamento-detalhes {
   display: grid;
+  
 }
 
 @media (max-width: 1200px) {

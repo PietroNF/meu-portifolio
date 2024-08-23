@@ -175,7 +175,8 @@ width: 200px;
 
 
 #tab{
-  width: 350px;
+  width: 335px;
+  padding-bottom: 15px;
 }
 
 #text-sm{

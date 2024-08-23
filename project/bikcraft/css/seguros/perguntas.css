@@ -18,8 +18,8 @@
 
 .perguntas dt {
   display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
+  grid-template-columns:  auto 1fr auto;
+align-items: center;
   gap: 8px;
   cursor: pointer;
 }
