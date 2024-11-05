@@ -161,16 +161,7 @@ font-size: 22px;
 letter-spacing: 1px;
 
 }
-#span::after{
-content:".";
 
-position: absolute;
-width: 30px;
-background: url("/img/sc-flag.svg") no-repeat center center ;
-margin-left: 10px;
-color: rgba(0, 0, 0, 0);
-
-}
 
 
 #go-there{
