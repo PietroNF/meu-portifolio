@@ -103,10 +103,9 @@
       }
       
       #my-img img{
-        height: 170px;
-        height: 150px;
-        padding: 100px 20px;
-
+        height: 100px;
+       
+margin-top: 50px;
 
       }
      #myself span{
